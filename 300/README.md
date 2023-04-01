@@ -90,6 +90,8 @@ From "All Schemas" clock on "Airtable".
 
 Next click on "Configure".
 
+Paste the **Airtable Personal Access Token** into **Airtable API Key** (as API Key in Airtable has been replaced by Personal Access Token recently).
+
 
 
 MORE ...
