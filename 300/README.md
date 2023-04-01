@@ -1,6 +1,41 @@
 # 300 - Building Our Application
 
-## 100 - Your Stepzen Account Details
+## 100 - Your Airtable Account
+
+Go to the login page, by https://airtable.com/login
+
+Once logged in successfully in https://airtable.com/ click on **Create a base** (if you have not already done so).
+
+
+In **Grid View**, double click on the column(s) to change their names as follows:
+
+| Atom | Size | Color |
+| -- | -- | -- |
+| Mi | 5 | #FFFFFF |
+
+
+MORE ...
+
+ This should ultimately result in a JSON data file like:
+ 
+ ```
+ {
+  "nodes": [
+    {"atom": "Mi", "size": 5, "color": "#FFFFFF"},
+    {"atom": "OF", "size": 5, "color": "#FFFFFF"},
+    {"atom": "MG", "size": 5, "color": "#FFFFFF"},
+    {"atom": "OM", "size": 5, "color": "#FFFFFF"}
+  ],
+  "links": [
+    {"source": 0, "target": 1,  "bond": 1},
+    {"source": 1, "target": 2,  "bond": 1},
+    {"source": 1, "target": 3,  "bond": 1}
+  ]
+}
+ ```
+
+
+## 200 - Your Stepzen Account Details
 
 Go to the login page, by https://login.stepzen.com/login
 
@@ -29,7 +64,7 @@ Use your API Key to access StepZen and execute queries.
 
 Make a not of all above as you will need to enter it in the next steps.
 
-## 200 - Stepzen Studio for GraphQL
+## 300 - Stepzen Studio for GraphQL
 
 Visit Stepzen Studio for GraphQL at https://graphql.stepzen.com
 
