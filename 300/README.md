@@ -17,6 +17,12 @@ In **Grid View**, double click on the column(s) to change their names as follows
 | MG | 5 | #FFFFFF |
 | OM | 5 | #FFFFFF |
 
+Where:
+- Mi = Milk
+- OF = Oat Flakes
+- MG = Multigrain
+- OM = Oat Meal
+
 ![Airtable_Servings_Cereal](https://user-images.githubusercontent.com/1499433/229313861-3187b803-9912-4607-9eb2-ac0502c53a6a.png)
 
 *NOTE*: This should ultimately result in a JSON data file like:
