@@ -98,6 +98,28 @@ Paste the string of characters after https://apitables.com/ upto the next '/' in
 
 Paste the **Airtable Personal Access Token** into **Airtable API Key** (as API Key in Airtable has been replaced by Personal Access Token recently).
 
+There is an example GraphQL query where you have to replace the text "PLEASE ENTER TABLENAME HERE" by the name of the table in Airtable that we want to query (here: Cereal):
 
+```
+query AirtableQueries(
+  $airtable_apiKey: Secret!
+  $airtable_baseId: Secret!
+  $tableName: String = "PLEASE ENTER TABLENAME HERE"
+) {
+  airtable_tableData(
+    airtable_apiKey: $airtable_apiKey
+    airtable_baseId: $airtable_baseId
+    tableName: $tableName
+  ) {
+    records {
+      id
+      createdTime
+      fields
+    }
+  }
+}
+```
+
+After replacing the placeholder text with the actual table name (here: Cereal), RUN the query in Stepzen to see if the connection can be made successfully.
 
 MORE ...
