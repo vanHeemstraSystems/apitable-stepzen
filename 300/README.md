@@ -92,6 +92,10 @@ From "All Schemas" clock on "Airtable".
 
 Next click on "Configure".
 
+Paste the string of characters after https://apitables.com/ upto the next '/' into **Airtable Base ID**. See the Base ID (here: appyqkGHc2SWiagw5) as highlighted in yellow below:
+
+![Airtable_Base_ID](https://user-images.githubusercontent.com/1499433/229315106-79010077-fe88-489f-a80a-4b450214398f.png)
+
 Paste the **Airtable Personal Access Token** into **Airtable API Key** (as API Key in Airtable has been replaced by Personal Access Token recently).
 
 
