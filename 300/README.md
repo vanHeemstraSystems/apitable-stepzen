@@ -43,9 +43,17 @@ Where:
 }
  ```
 
+## 200 - Create a Personal Access Token on Airtable
 
+See also: https://airtable.com/developers/web/guides/personal-access-tokens
 
-## 200 - Your Stepzen Account Details
+Airtable has deprecated the use of API keys and instead recommends using Personal Access Tokens.
+
+Hence, we'll have to create a Personal Access Token on Airtable.
+
+MORE ...
+
+## 300 - Your Stepzen Account Details
 
 Go to the login page, by https://login.stepzen.com/login
 
@@ -74,7 +82,7 @@ Use your API Key to access StepZen and execute queries.
 
 Make a not of all above as you will need to enter it in the next steps.
 
-## 300 - Stepzen Studio for GraphQL
+## 400 - Stepzen Studio for GraphQL
 
 Visit Stepzen Studio for GraphQL at https://graphql.stepzen.com
 
