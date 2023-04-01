@@ -51,7 +51,9 @@ Airtable has deprecated the use of API keys and instead recommends using Persona
 
 Hence, we'll have to create a Personal Access Token on Airtable.
 
-MORE ...
+![Airtable_Personal_Access_Token](https://user-images.githubusercontent.com/1499433/229314495-1d577727-55d7-4557-a7e7-308100876559.png)
+
+Make a note of the Personal Access Token, as we will be needing this when configuring Stepzen later on.
 
 ## 300 - Your Stepzen Account Details
 
