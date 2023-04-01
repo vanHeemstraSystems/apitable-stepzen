@@ -12,11 +12,11 @@ In **Grid View**, double click on the column(s) to change their names as follows
 | Atom | Size | Color |
 | -- | -- | -- |
 | Mi | 5 | #FFFFFF |
+| OF | 5 | #FFFFFF |
+| MG | 5 | #FFFFFF |
+| OM | 5 | #FFFFFF |
 
-
-MORE ...
-
- This should ultimately result in a JSON data file like:
+*NOTE*: This should ultimately result in a JSON data file like:
  
  ```
  {
@@ -33,6 +33,7 @@ MORE ...
   ]
 }
  ```
+
 
 
 ## 200 - Your Stepzen Account Details
