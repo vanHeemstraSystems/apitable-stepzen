@@ -6,6 +6,7 @@ Go to the login page, by https://airtable.com/login
 
 Once logged in successfully in https://airtable.com/ click on **Create a base** (if you have not already done so).
 
+Rename the base to **Servings** and the table to **Cereal**.
 
 In **Grid View**, double click on the column(s) to change their names as follows:
 
@@ -15,6 +16,8 @@ In **Grid View**, double click on the column(s) to change their names as follows
 | OF | 5 | #FFFFFF |
 | MG | 5 | #FFFFFF |
 | OM | 5 | #FFFFFF |
+
+![Airtable_Servings_Cereal](https://user-images.githubusercontent.com/1499433/229313861-3187b803-9912-4607-9eb2-ac0502c53a6a.png)
 
 *NOTE*: This should ultimately result in a JSON data file like:
  
